@@ -9,6 +9,11 @@ RidgeSen is a repository for the methodological analysis of the Beijing economy 
 
 I implemented this ridge regression method by estimating parameters of the ridge regression estimator (RRE) ([Yazid M, 2010](https://www.sciencedirect.com/science/article/pii/S1815385210000076)) using the least squares estimator (LSE). Based on Beijing meteorological and economic observations from 2002-2013, we then used this method to analyze the economy sensitivity of Beijing nine industries to the changes of meteorological factors. According to the sensitivity values, among 9 industries the economy of the construction industry was found to be most sensitive to the changes of meteorological factors. This is in accordance with specific circumstances of Beijing's industries. In our paper (please see below), we specifically analyzed how and why some industry economies are very sensitive while some are not. The sensitivity analysis is helpful to decision-making departments w.r.t. industrial shake-up and resource allocation and etc.
 
+## Install
+```    
+pip install -r requirements.txt
+```
+
 ## Usage
 Please run our program in `./example/ridge_regression_analysis.ipynb`. 
 
